@@ -3,6 +3,8 @@
     font-family: "Azeret Mono", monospace;
 }
 
+/* firat class style */
+
 header div .head{
     font-size: larger;
     font-weight: 800;
@@ -55,6 +57,7 @@ header div .head{
 
 .first-page{
     background-image: url(../pictures/Hero-bg.png);
+    background-repeat: no-repeat;
     width: 1440px;
     height: 676px;
 }
@@ -92,6 +95,7 @@ h1{
    line-height: 60px;
 }
 
+/* paragraph style */
 .paragraph{
     color: rgb(13, 19, 33);
     font-size: 14px;
@@ -121,5 +125,68 @@ h1{
 
 .click-btn:hover{
     color:#00d5ff;
+}
+
+/* second class style  */
+
+.second-page{
+    margin: 80px 97px;
+    border-radius: 16px;
+    background: rgba(73, 83, 108, 0.058);
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.second-page .heading{
+    margin:48px 0px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.second-page .heading h3{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 180px;
+}
+
+.para{
+    color: rgb(13, 30, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.7;
+    /* padding-left: 130px; */
+}
+
+.second-page .heading p{
+    padding-left: 180px;
+}
+
+.second-page .content{
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-page .frame1{
+    width: 550px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-page .content .para{
+    /* padding-left: 85px; */
 }
 
