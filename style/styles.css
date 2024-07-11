@@ -98,12 +98,12 @@ header{
 
 /* Banner design */
 .banner{
-    width: 70%;
+    width: 90%;
     height: 1180px;
     margin: 0px auto;
     margin-top: 40px;
-    padding: 70px 85px;
-    padding-left: 130px;
+    /* padding: 70px 85px;
+    padding-left: 130px; */
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-bottom: 60px;
@@ -167,19 +167,21 @@ header{
     text-align: center;
 }
 .about-my-inspiration{
-    width: 95%;
-    height: 700px;
-    border: 2px solid red;
+    width: 90%;
+    height: 850px;
     margin-top: 70px;
     margin: 0px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 70px;
 }
 .inspiration-div{
     width: 800px;
     height: 220px;
     padding-top: 30px;
     margin: 0px auto;
-    border: 2px solid green;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .inspiration-div h2{
@@ -187,4 +189,47 @@ header{
     font-size: 26px;
     font-weight: 800;
     padding-bottom: 20px;
+}
+.inspiration-div p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+}
+#motivation{
+    width: 94%;
+    height: 500px;
+    padding: 28px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.current-target{
+    width: 90%;
+    height: 540px;
+    border: 2px solid red;
+    margin: 0px auto;
+}
+.current-target-header{
+    width: 60%;
+    height: 130px;
+    text-align: center;
+    border: 2px solid green;
+    margin: 0px auto;
+}
+.current-target-header h2{
+    color: rgb(12, 19, 35);
+    font-size: 26px;
+    font-weight: 800;
+}
+.current-target-header p{
+    color: rgb(13, 19, 33);
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
 }
